@@ -1,0 +1,15 @@
+{
+  "intents": [
+    { "intent": "MyCustomIntent" },
+    { "intent": "AMAZON.SearchAction<object@Book>" },
+    { "intent": "AMAZON.AddAction<object@Book,targetCollection@ReadingList>" },
+    { "intent": "AMAZON.ChooseAction<object@Book,sourceCollection@ReadingList>" },
+    { "intent": "AMAZON.ChooseAction<object@Book>" },
+    { "intent": "AMAZON.DeleteAction<object@Book,sourceCollection@ReadingList>" },
+    { "intent": "AMAZON.PlaybackAction<object@Book>" },
+    { "intent": "AMAZON.RateAction<object@Book>" },
+    { "intent": "AMAZON.SearchAction<object@Book[datePublished]>" },
+    { "intent": "AMAZON.SearchAction<object@Book[numberOfSections]>" },
+    { "intent": "AMAZON.SearchAction<object@Book[position]>" }
+  ]
+}
